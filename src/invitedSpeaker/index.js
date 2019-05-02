@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './invitedSpeaker.css';
+import './index.css';
 
 class InvitedSpeaker extends React.Component{
 	render(){

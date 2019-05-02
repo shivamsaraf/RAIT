@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './Navbar';
 import Header from './Header';
-import Committees from './Committees';
-import InvitedSpeaker from './InvitedSpeaker';
+import Committees from './Committee';
+import InvitedSpeaker from './invitedSpeaker';
+import Footer from './Footer';
 
 class App extends React.Component {
      render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
                  <Navbar />
                  <Committees />
                  <InvitedSpeaker />
+                 <Footer />
              </div>
          )
      }

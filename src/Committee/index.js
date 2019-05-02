@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './committees.css';
+import './index.css';
 
 class Committees extends React.Component{
 	render(){
