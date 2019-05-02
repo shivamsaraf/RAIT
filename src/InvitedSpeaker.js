@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import './invitedSpeaker.css';
+import Navbar from './Navbar';
+import Header from './Header';
 
 class InvitedSpeaker extends React.Component{
 	render(){
 		return(
 			<div>
+			<Header/>
+			<Navbar/>
 			 <div className="imageSpeaker">
 			 <img src="http://ants2018.ieee-comsoc-ants.org/wp-content/themes/comsoc-conf-template/dist/images/ieee-comsoc-new@2x.png" alt="Speaker"/>
 			 </div>
