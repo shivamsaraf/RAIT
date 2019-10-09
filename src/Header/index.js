@@ -1,5 +1,5 @@
 import React from 'react';
-import './headers.css';
+import './index.css';
 
 export default class Header extends React.Component{
     render(){
@@ -17,7 +17,7 @@ export default class Header extends React.Component{
                 </div>
                 <div class="flex-container3">
                     <div class="image">
-                        <a href="www.ieee.org">
+                        <a href="https://www.ieee.org/" target="_blank">
                         <img class="img2" src="http://www.ieee-inertial.org/sites/2018.ieee-inertial.org/files/styles/large/public/images/logos/IEEE-logo-%5BConverted%5D.png?itok=FAI2BPOs" alt="IEEE logo" />
                         </a>
                     </div>

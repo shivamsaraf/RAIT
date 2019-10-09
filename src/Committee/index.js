@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
-import './committees.css';
-import Navbar from './Navbar';
-import Header from './Header';
+import Navbar from '../Navbar';
+import Header from '../Header';
+import Footer from '../Footer';
 
 class Committees extends React.Component{
 	render(){
 		return(
 			<div>
-			<Header/>
+			<Header />
 			<Navbar/>
 			<div className="HeadingCommittee">
 			  <b>Committee members</b><br/>
@@ -35,6 +36,7 @@ class Committees extends React.Component{
 			  </i>
 			  </div> 
 			</div>
+			<Footer />
 			</div>
 		)
 	}

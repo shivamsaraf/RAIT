@@ -4,8 +4,8 @@ import { Route, Link, BrowserRouter as Router,Switch } from 'react-router-dom';
 import App from './home';
 import Navbar from './Navbar';
 import Header from './Header';
-import Committees from './Committees';
-import InvitedSpeaker from './InvitedSpeaker';
+import Committees from './Committee';
+import InvitedSpeaker from './invitedSpeaker';
 import NotFound from './404_not_found';
 
 
@@ -31,6 +31,7 @@ const routing = (
                  <Navbar />
                  <Committees />
                  <InvitedSpeaker />
+                 <Footer />
              </div>
          )
      }
