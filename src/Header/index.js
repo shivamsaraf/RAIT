@@ -18,7 +18,7 @@ export default class Header extends React.Component{
                 <div class="flex-container3">
                     <div class="image">
                         <a href="https://www.ieee.org/" target="_blank">
-                        <img class="img2" src="http://www.ieee-inertial.org/sites/2018.ieee-inertial.org/files/styles/large/public/images/logos/IEEE-logo-%5BConverted%5D.png?itok=FAI2BPOs" alt="IEEE logo" />
+                        <img class="img2" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0002/5765/brand.gif?itok=mJAfl79W" alt="IEEE logo" />
                         </a>
                     </div>
 

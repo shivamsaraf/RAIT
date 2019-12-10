@@ -9,9 +9,8 @@ class Navbar extends React.Component{
 			<div className="topnav">
           <Link to="/">Home</Link>
           <Link to="/committees">Committees</Link>
-  				<Link to="/authors">Authors</Link>
-  				<Link to="/invitedspeaker">Invited Speaker</Link>
-          <Link to="/program">Authors</Link>
+  		  <Link to="/invitedspeaker">Invited Speaker</Link>
+          <Link to="/authors">Authors</Link>
           <Link to="/registration">Registration</Link>
           <Link to="/sponsorship">Sponsorship</Link>
           <Link to="/contactus">Contact us</Link>

@@ -7,6 +7,7 @@ import Header from './Header';
 import Committees from './Committee';
 import InvitedSpeaker from './invitedSpeaker';
 import NotFound from './404_not_found';
+import Authors from './Authors';
 
 
 const routing = (
@@ -16,6 +17,7 @@ const routing = (
         <Route exact path="/" component={App} />
         <Route exact path="/committees" component={Committees} />
         <Route exact path="/invitedspeaker" component={InvitedSpeaker} />
+        <Route exact path="/authors" component={Authors} />
         <Route component = {NotFound} />
         </Switch>
       </div>
