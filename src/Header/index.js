@@ -13,7 +13,7 @@ export default class Header extends React.Component{
                     <div class="L1">Recent Advances in Information Technology 2020</div>
                     <div class="L2">Department of Computer Science and Engineering</div>
                     <div class="L2">Indian Institute of Technology (Indian School of Mines), Dhanbad</div>
-                    <div class="L3">XX-XX Month Year - Dhanbad, India</div>
+                    <div class="L3">December 11-12, 2020 - Dhanbad, India</div>
                 </div>
                 <div class="flex-container3">
                     <div class="image">

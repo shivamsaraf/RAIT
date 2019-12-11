@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Route, Link, BrowserRouter as Router,Switch } from 'react-router-dom';
-import './navbar.css';
+import './Navbar.css';
 
-class Navbar extends React.Component{
+export default class Navbar extends React.Component{
 	render(){
 		return(
 			<div className="topnav">
@@ -15,12 +14,6 @@ class Navbar extends React.Component{
           <Link to="/sponsorship">Sponsorship</Link>
           <Link to="/contactus">Contact us</Link>
 			</div>
-
-
-
-
-
 		)
 	}
 }
-export default Navbar

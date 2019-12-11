@@ -1,12 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import Navbar from '../Navbar';
 import Header from '../Header';
 import Footer from '../Footer';
 
-class Committees extends React.Component{
+export default class Committees extends React.Component{
 	render(){
 		return(
 			<div>
@@ -14,7 +12,7 @@ class Committees extends React.Component{
 			<Navbar/>
 				<div class="committee">
 					<br />
-					<span class="headingCommittee"><h1>CONFERENCE COMMITTEE</h1></span>
+					<center><span class="headingCommittee"><b>CONFERENCE COMMITTEE</b></span></center>
 					<br />
 					<div class="patron">
 						<b><font color="#0E157C">Chief Patron</font></b>: Prof. D. D. Misra, Chairman GC & EB, IIT (ISM), Dhanbad<br /><br />
@@ -84,5 +82,3 @@ class Committees extends React.Component{
 		)
 	}
 }
-
-export default Committees
