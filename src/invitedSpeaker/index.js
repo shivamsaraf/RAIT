@@ -10,7 +10,9 @@ export default class InvitedSpeaker extends React.Component{
 			<div>
 			<Header/>
 			<Navbar/>
-			 
+			 <div class="welcomeHome">
+                 <b>Coming Soon</b>
+             </div>
             <Footer />
 			</div>
 
