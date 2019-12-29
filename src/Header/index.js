@@ -16,12 +16,7 @@ export default class Header extends React.Component{
                     <div class="L3">December 11-12, 2020 - Dhanbad, India</div>
                 </div>
                 <div class="flex-container3">
-                    <div class="image">
-                        <a href="https://www.ieee.org/" target="_blank">
-                        <img class="img2" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0002/5765/brand.gif?itok=mJAfl79W" alt="IEEE logo" />
-                        </a>
-                    </div>
-
+                    
                 </div>
                 </div>
             </div>

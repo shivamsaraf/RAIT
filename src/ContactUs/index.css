@@ -1,0 +1,14 @@
+.contactflex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 25px;
+	font-size: 3.2vh;
+	
+}
+
+body{
+	background-color: #d9e2ec;
+}
+
+
