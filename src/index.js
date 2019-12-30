@@ -8,12 +8,14 @@ import Authors from './Authors';
 import Registration from './Registration';
 import Sponsorship from './Sponsorship';
 import ContactUs from './ContactUs';
+import Layout from './Layout';
 
 
 const routing = (
-    <Router>
-      <div>
-          <Switch>
+  <Router>
+
+<Layout>
+        <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/committees" component={Committees} />
         <Route path="/invitedspeaker" component={InvitedSpeaker} />
@@ -22,7 +24,9 @@ const routing = (
         <Route path="/sponsorship" component={Sponsorship} />
         <Route path="/contactus" component={ContactUs} />
         </Switch>
-      </div>
-    </Router>
+  </Layout>
+  </Router>
+
   )
+  
   ReactDOM.render(routing, document.getElementById('root'))

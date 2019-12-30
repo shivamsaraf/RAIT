@@ -7,9 +7,7 @@ import Footer from '../Footer';
 export default class Committees extends React.Component{
 	render(){
 		return(
-			<div>
-			<Header />
-			<Navbar/>
+
 				<div class="committee">
 					<br />
 					<center><span class="headingCommittee"><b>CONFERENCE COMMITTEE</b></span></center>
@@ -77,8 +75,7 @@ export default class Committees extends React.Component{
 					<br />
 					<br />
 				</div>
-			<Footer />
-			</div>
+
 		)
 	}
 }

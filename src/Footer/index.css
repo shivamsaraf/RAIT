@@ -1,7 +1,6 @@
-.body{
-    margin: 60vh 0vh 0vh 0vh;
+.bodyFooter{
     background-color: #46C6E0;
-    height: 10vh;
-    padding-top: 8vh;
+    height: 100px;
+    padding-top: 20px;
     font-size: 2.2vh;
 }

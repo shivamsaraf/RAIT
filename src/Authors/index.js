@@ -7,9 +7,6 @@ import Footer from '../Footer';
 export default class Authors extends React.Component{
     render(){
         return(
-            <div>
-                <Header />
-                <Navbar />
                 <div class="authors">
                     <br/>
                     <span class="headerAuthors">Important Dates: </span>
@@ -23,8 +20,7 @@ export default class Authors extends React.Component{
                     <br />
                     <br />
                 </div>
-                <Footer />
-            </div>
+
         )
     }
 }

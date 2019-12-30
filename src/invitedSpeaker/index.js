@@ -7,14 +7,9 @@ import Footer from '../Footer';
 export default class InvitedSpeaker extends React.Component{
 	render(){
 		return(
-			<div>
-			<Header/>
-			<Navbar/>
 			 <div class="welcomeHome">
                  <b>Coming Soon</b>
              </div>
-            <Footer />
-			</div>
 
 
 		)

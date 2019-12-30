@@ -7,9 +7,7 @@ import Footer from '../Footer';
 export default class InvitedSpeaker extends React.Component{
 	render(){
 		return(
-			<div>
-			<Header/>
-			<Navbar/>
+
 			<div class="contact">
 				<div class="contactflex">
 					<div>
@@ -23,8 +21,7 @@ export default class InvitedSpeaker extends React.Component{
 					</div>
 				</div>
 			</div>
-            <Footer />
-			</div>
+
 
 
 		)

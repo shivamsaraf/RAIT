@@ -8,15 +8,10 @@ import './index.css';
 export default class Home extends React.Component {
      render() {
          return (
-             <div>
-                 <Header />
-                 <Navbar />
                  <div class="welcomeHome">
                   <b>Coming Soon</b>
                  </div>
              
-	             <Footer />
-	             </div>
          )
      }
  }
