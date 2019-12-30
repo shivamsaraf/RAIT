@@ -11,9 +11,8 @@ export default class Header extends React.Component{
                 </div>
                 <div class="flex-container2">
                     <div class="L1">RAIT 2020</div>
-                    <div class="L2">5th International Conference on Recent Advances in Information Technology</div>
-                    <div class="L2">Indian Institute of Technology (Indian School of Mines), Dhanbad</div>
-                    <div class="L3">December 11-12, 2020 - Dhanbad, India</div>
+                    <div class="L2">5th International Conference on Recent Advances in Information Technology</div><br />
+                    <div class="L3">December 11-12, 2020 | Dhanbad, India</div>
                 </div>
                 <div class="flex-container3">
                     

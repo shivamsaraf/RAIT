@@ -9,7 +9,7 @@ export default class InvitedSpeaker extends React.Component{
 const {children} = this.props;
         return(
 			<div className="parent">
-                <div className="child1">
+                <div>
 
                 <Header/>
 			<Navbar/> 
@@ -22,10 +22,10 @@ const {children} = this.props;
 </div>
 
              <div className="grow"/>
-             <div className="child2">
+ 
              <Footer />
 
-             </div>
+     
 			</div>
 		)
 	}
