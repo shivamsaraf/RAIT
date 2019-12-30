@@ -6,13 +6,13 @@ export default class Navbar extends React.Component{
   render(){
     return(
       <div className="topnav">
-          <Link to="/seminar/cse/rait2020/">Home</Link>
-          <Link to="/seminar/cse/rait2020/#/committees">Committees</Link>
-        <Link to="/seminar/cse/rait2020/#/invitedspeaker">Invited Speaker</Link>
-          <Link to="/seminar/cse/rait2020/#/authors">Authors</Link>
-          <Link to="/seminar/cse/rait2020/#/registration">Registration</Link>
-          <Link to="/seminar/cse/rait2020/#/sponsorship">Sponsorship</Link>
-          <Link to="/seminar/cse/rait2020/#/contactus">Contact us</Link>
+          <Link to="/">Home</Link>
+          <Link to="/committees">Committees</Link>
+        <Link to="/invitedspeaker">Invited Speaker</Link>
+          <Link to="/authors">Authors</Link>
+          <Link to="/registration">Registration</Link>
+          <Link to="/sponsorship">Sponsorship</Link>
+          <Link to="/contactus">Contact us</Link>
       </div>
     )
   }

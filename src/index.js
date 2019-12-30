@@ -14,15 +14,15 @@ const routing = (
     <Router>
       <div>
           <Switch>
-        <Route exact path="/seminar/cse/rait2020/" component={Home} />
-        <Route path="/seminar/cse/rait2020/#/committees" component={Committees} />
-        <Route path="/seminar/cse/rait2020/#/invitedspeaker" component={InvitedSpeaker} />
-        <Route path="/seminar/cse/rait2020/#/authors" component={Authors} />
-        <Route path="/seminar/cse/rait2020/#/registration" component={Registration} />
-        <Route path="/seminar/cse/rait2020/#/sponsorship" component={Sponsorship} />
-        <Route path="/seminar/cse/rait2020/#/contactus" component={ContactUs} />
+        <Route exact path="/" component={Home} />
+        <Route path="/committees" component={Committees} />
+        <Route path="/invitedspeaker" component={InvitedSpeaker} />
+        <Route path="/authors" component={Authors} />
+        <Route path="/registration" component={Registration} />
+        <Route path="/sponsorship" component={Sponsorship} />
+        <Route path="/contactus" component={ContactUs} />
         </Switch>
       </div>
     </Router>
   )
-  ReactDOM.render(routing, document.getElementById('root')) 
+  ReactDOM.render(routing, document.getElementById('root'))
