@@ -12,3 +12,13 @@
     font-size: 4vh;
     margin-left: 2vh;
 }
+
+@media all and (max-width: 91.3vh){
+    .headerAuthors{
+        font-size: 4vh;
+    }
+    .datesAuthors{
+        font-size: 3vh;
+        margin-left: 1vh;
+    }
+}

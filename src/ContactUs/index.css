@@ -1,14 +1,34 @@
 .contactflex{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
 	padding-top: 25px;
 	font-size: 3.2vh;
-	
+	margin-left: 2vh;
+}
+
+.ContactUsmap{
+	margin: 2vh 0vh 2vh 4vh;
+	width: 45vw;
+	height: 48vh;
 }
 
 body{
 	background-color: #d9e2ec;
+}
+
+@media all and (max-width: 91.3vh){
+	.contactflex{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		font-size: 2.5vh;
+		margin-left: 2vh;
+	}
+	.ContactUsmap{
+		margin: 2vh 0vh 2vh 1.2vh;
+		width: 87vw;
+		height: 38vh;
+	}
 }
 
 

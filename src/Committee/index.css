@@ -61,3 +61,60 @@ hr{
 	border-color: #6D7069;
 	margin: 4vh;
 }
+
+@media all and (max-width: 60vh){
+	.advisory{
+		font-size: 2.5vh;
+		width: 85vw;
+		height: auto;
+		margin-left: 3.5vh;
+	}
+	.conference{
+		font-size: 2.5vh;
+		width: 85vw;
+		margin-left: 3.5vh;
+	}
+	.organizing{
+		font-size: 2.5vh;
+		margin-left: 3.5vh;
+		width: 85vw;
+	}
+	.advisoryHeading{
+		font-size: 3vh;
+	}
+	.headingCommittee{
+		font-size: 3.2vh;
+	}
+	.patron{
+		font-size: 3vh;
+	}
+}
+
+@media all and (min-width:61vh) and (max-width: 91.3vh){
+	.advisory{
+		font-size: 2.5vh;
+		width: 85vw;
+		height: auto;
+		margin-left: 5vh;
+	}
+	.conference{
+		font-size: 2.5vh;
+		width: 85vw;
+		margin-left: 5vh;
+	}
+	.organizing{
+		font-size: 2.5vh;
+		margin-left: 5vh;
+		width: 85vw;
+	}
+	.advisoryHeading{
+		font-size: 3vh;
+	}
+	.headingCommittee{
+		font-size: 3.2vh;
+	}
+	.patron{
+		font-size: 3vh;
+	}
+}
+
