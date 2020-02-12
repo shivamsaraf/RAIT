@@ -22,6 +22,12 @@ export default class Header extends React.Component{
 				            <div className="L2">5th International Conference on Recent Advances in Information Technology</div>
 				            <div className="L3">December 11-12, 2020 | Dhanbad, India</div>
 				          </div>
+						  <div className="image">
+							<img 
+								className="raitLogo"
+								src={require('../rait_logo.png')}
+							/>
+						  </div>
 				    </div>
 	            </div>
                

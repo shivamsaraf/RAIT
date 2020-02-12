@@ -12,6 +12,10 @@
     align-self: center;
 
 }
+.raitLogo{
+    height: 20vh;
+    margin-left: 60vh;
+}
 .flex-container2{
     display: flex;
     flex-direction: column;
@@ -53,5 +57,9 @@
     }
     .img{
         height: 15vh;
+    }
+    .raitLogo{
+        height: 12vh;
+        margin-left: 2vh;
     }
 }
